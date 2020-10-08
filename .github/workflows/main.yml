@@ -30,4 +30,4 @@ jobs:
       - name: Installing Surge
         run : npm install -g surge
       - name: Auto deploying
-        run: surge ./ http://bawdy-bead.surge.sh/ --token ${{ secrets.MY_SURGE_TOKEN }}
+        run: surge ./ http://bawdy-bead.surge.sh/ --token ${{ secrets.TOKEN }}
